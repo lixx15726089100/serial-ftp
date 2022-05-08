@@ -7,3 +7,10 @@ import serial
 
 #由于需要全双工工作，特设立标注位
 serial_busyflag = 0
+
+filepath = 'testfile.jpg'
+
+# 读取文件二进制流
+with open(filepath,'rb') as f:
+    data = f.read()
+print(len(data))
