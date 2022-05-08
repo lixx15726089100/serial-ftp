@@ -28,7 +28,7 @@ else:
     pack_count = int(len(data) / 256) + 1
 
 for i in range(0,pack_count):
-
+    pass
 
 
 print(bytes_stream)
@@ -38,3 +38,7 @@ print(data[110974])
 # print(data)
 # 由于电脑的资源非常丰富，不需要指针之类的东西，完全可以直接多占内存，将数据一下子制备好
 # 制备未列表，内容是文件的字节流，256个一包
+
+
+# 内外网交互使用的也没那么频繁
+# 暂停研究
